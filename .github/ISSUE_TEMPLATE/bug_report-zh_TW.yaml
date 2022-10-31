@@ -1,0 +1,166 @@
+name: 錯誤報告（繁體中文，Java 版）
+description: 提交 現代字體包 錯誤報告
+title: "[Bug] "
+labels: ["Bug", "In triage", "Java Edition"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感謝您抽出寶貴時間填寫此錯誤報告！
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 錯誤描述
+      description: 請詳細描述發生的錯誤資訊。
+      placeholder: 告訴我們發生了什麼錯誤。
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 重現步驟
+      description: 請描述觸發錯誤的步驟。
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+      render: bash
+    validations:
+      required: true
+  - type: input
+    id: expected-behavior
+    attributes:
+      label: 預期行為
+      description: 請簡要描述您想要的效果。
+    validations:
+      required: true
+  - type: input
+    id: actual-behavior
+    attributes:
+      label: 實際行為
+      description: 請簡要說明實際結果。
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: 現代字體包 版本
+      description: 你目前使用的是什麼版本的 現代字體包？（例如 v919，可從資源包標題中指示的版本號中找到。如果您使用的版本未在此處列出，則您使用的版本已過期。請更新到最新版本並嘗試再次重現該錯誤。）
+      options:
+        - v119
+        - v219
+        - v319
+        - v419
+        - v519
+        - v619
+        - v719
+        - v819
+        - v919
+        - v1019
+    validations:
+      required: true
+  - type: dropdown
+    id: game-version
+    attributes:
+      label: 你玩的是什麼遊戲版本？
+      description: （如果此處未列出您使用的版本，則表示您使用的版本不受支援。請使用支援的版本並嘗試再次重現該錯誤。）
+      options:
+        - 1.19.3
+        - 1.19.2
+        - 1.19.1
+        - 1.19
+        - 1.18.2
+        - 1.18.1
+        - 1.18
+        - 1.17.1
+        - 1.17
+        - 1.16.5
+        - 1.16.4
+        - 1.16.3
+        - 1.16.2
+        - 1.16.1
+        - 1.16
+        - 1.15.2
+        - 1.15.1
+        - 1.15
+        - 1.14.4
+        - 1.14.3
+        - 1.14.2
+        - 1.14.1
+        - 1.14
+        - 1.13.2
+        - 1.13.1
+        - 1.13
+        - 1.12.2
+        - 1.12.1
+        - 1.12
+        - 1.11.2
+        - 1.11.1
+        - 1.11
+        - 1.10.2
+        - 1.10.1
+        - 1.10
+        - 1.9.4
+        - 1.9.3
+        - 1.9.2
+        - 1.9.1
+        - 1.9
+        - 1.8.9
+        - 1.8.8
+        - 1.8.7
+        - 1.8.6
+        - 1.8.5
+        - 1.8.4
+        - 1.8.3
+        - 1.8.2
+        - 1.8.1
+        - 1.8
+        - 1.7.10
+        - 1.7.9
+        - 1.7.8
+        - 1.7.7
+        - 1.7.6
+        - 1.7.5
+        - 1.7.4
+        - 1.7.2
+        - 1.6.4
+        - 1.6.2
+        - 1.6.1
+    validations:
+      required: true
+  - type: dropdown
+    id: snapshot
+    attributes:
+      label: 是否在快照版本上使用？
+      options: 
+        - 是
+        - 否
+    validations:
+      required: true
+  - type: dropdown
+    id: snapshot-version
+    attributes:
+      label: 若在快照版本中使用，請輸入該快照版本的名稱。
+    validations:
+      required: false
+  - type: dropdown
+    id: operating-system
+    attributes:
+      label: 您正在使用的裝置的系統是什麼？
+      options:
+        - Windows
+        - Mac OS
+        - Linux
+        - Other
+    validations:
+      required: false
+  - type: textarea
+    id: additional-information
+    attributes:
+      label: 其他說明
+      description: 若發生遊戲崩潰，請務必在此提供遊戲日誌或是崩潰報告。
+      placeholder: |
+        ...
+      render: bash
+    validations:
+      required: false

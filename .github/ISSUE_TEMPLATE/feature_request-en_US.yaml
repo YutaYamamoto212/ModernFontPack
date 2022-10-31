@@ -1,0 +1,27 @@
+---
+name: Feature Request (English)
+description: Request a new feature
+title: "[Feature Request] "
+labels: ["Enhancement", "In triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to fill out this sheet!
+  - type: textarea
+    id: feature
+    attributes:
+      label: Description of the Request
+      description: Please briefly describe the feature you want.
+    validations:
+      required: true
+  - type: input
+    id: expected-behavior
+    attributes:
+      label: Alternatives
+      description: Alternatives or approaches you have considered
+  - type: textarea
+    id: context 
+    attributes:
+      label: Additional Notes
+      description: Additional clarification or screenshots about this feature request

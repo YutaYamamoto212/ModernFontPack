@@ -1,0 +1,27 @@
+---
+name: 功能请求（简体中文）
+description: 请求新功能
+title: "[Feature Request] "
+labels: ["Enhancement", "In triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢您抽出宝贵时间填写此表！
+  - type: textarea
+    id: feature
+    attributes:
+      label: 请求说明
+      description: 请简要描述您想要的功能。
+    validations:
+      required: true
+  - type: input
+    id: expected-behavior
+    attributes:
+      label: 替代方案
+      description: 您考虑过的替代方案或方法
+  - type: textarea
+    id: context 
+    attributes:
+      label: 补充说明
+      description: 关于此功能请求的其他说明或屏幕截图

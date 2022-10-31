@@ -1,0 +1,27 @@
+---
+name: 機能リクエスト（日本語）
+description: 新機能をリクエストする
+title: "[Feature Request] "
+labels: ["Enhancement", "In triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        このシートにご記入いただき、誠にありがとうございます。
+  - type: textarea
+    id: feature
+    attributes:
+      label: リクエストの説明
+      description: 必要な機能について簡単に説明してください。
+    validations:
+      required: true
+  - type: input
+    id: expected-behavior
+    attributes:
+      label: 代替案
+      description: 検討した代替案またはアプローチ
+  - type: textarea
+    id: context 
+    attributes:
+      label: 追加の説明
+      description: この機能リクエストに関する追加の説明またはスクリーンショット

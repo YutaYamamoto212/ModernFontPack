@@ -1,0 +1,166 @@
+name: Bug Report (English, Java Edition)
+description: Submit Modern Font Pack bug report
+title: "[Bug] "
+labels: ["Bug", "In triage", "Java Edition"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to fill out this bug report!
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Description of the Bug
+      description: Please describe in detail the bug information that occurred.
+      placeholder: Tell us what bug occurred.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: Please describe the step that triggered the bug.
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+      render: bash
+    validations:
+      required: true
+  - type: input
+    id: expected-behavior
+    attributes:
+      label: Expected Behavior
+      description: Please give a brief description of the desired effect.
+    validations:
+      required: true
+  - type: input
+    id: actual-behavior
+    attributes:
+      label: Actual Behavior
+      description: Please give a brief description of the actual result.
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: Modern Font Pack Version
+      description: What version of Modern Font Pack are you currently using? (e.g. v919, found from the version number indicated in the title of the resource pack. If the version you are using is not listed here, the version you are using is out of date. Please update to the latest version and try to reproduce the bug again.)
+      options:
+        - v119
+        - v219
+        - v319
+        - v419
+        - v519
+        - v619
+        - v719
+        - v819
+        - v919
+        - v1019
+    validations:
+      required: true
+  - type: dropdown
+    id: game-version
+    attributes:
+      label: What is the game version you are playing?
+      description: (If the version you are using is not listed here, the version you are using is not supported. Please use the supported version and try to reproduce the bug again.)
+      options:
+        - 1.19.3
+        - 1.19.2
+        - 1.19.1
+        - 1.19
+        - 1.18.2
+        - 1.18.1
+        - 1.18
+        - 1.17.1
+        - 1.17
+        - 1.16.5
+        - 1.16.4
+        - 1.16.3
+        - 1.16.2
+        - 1.16.1
+        - 1.16
+        - 1.15.2
+        - 1.15.1
+        - 1.15
+        - 1.14.4
+        - 1.14.3
+        - 1.14.2
+        - 1.14.1
+        - 1.14
+        - 1.13.2
+        - 1.13.1
+        - 1.13
+        - 1.12.2
+        - 1.12.1
+        - 1.12
+        - 1.11.2
+        - 1.11.1
+        - 1.11
+        - 1.10.2
+        - 1.10.1
+        - 1.10
+        - 1.9.4
+        - 1.9.3
+        - 1.9.2
+        - 1.9.1
+        - 1.9
+        - 1.8.9
+        - 1.8.8
+        - 1.8.7
+        - 1.8.6
+        - 1.8.5
+        - 1.8.4
+        - 1.8.3
+        - 1.8.2
+        - 1.8.1
+        - 1.8
+        - 1.7.10
+        - 1.7.9
+        - 1.7.8
+        - 1.7.7
+        - 1.7.6
+        - 1.7.5
+        - 1.7.4
+        - 1.7.2
+        - 1.6.4
+        - 1.6.2
+        - 1.6.1
+    validations:
+      required: true
+  - type: dropdown
+    id: snapshot
+    attributes:
+      label: Is it used on a snapshot version?
+      options: 
+        - Yes
+        - No
+    validations:
+      required: true
+  - type: dropdown
+    id: snapshot-version
+    attributes:
+      label: If used in a snapshot version, enter the name of the snapshot version.
+    validations:
+      required: false
+  - type: dropdown
+    id: operating-system
+    attributes:
+      label: What is the system of the device you are using?
+      options:
+        - Windows
+        - Mac OS
+        - Linux
+        - Other
+    validations:
+      required: false
+  - type: textarea
+    id: additional-information
+    attributes:
+      label: Additional Information
+      description: If the game crashes, be sure to provide the game log or crash report here.
+      placeholder: |
+        ...
+      render: bash
+    validations:
+      required: false
