@@ -137,7 +137,7 @@ body:
         - 否
     validations:
       required: true
-  - type: dropdown
+  - type: input
     id: snapshot-version
     attributes:
       label: 若在快照版本中使用，請輸入該快照版本的名稱。

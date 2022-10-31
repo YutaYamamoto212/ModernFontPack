@@ -137,7 +137,7 @@ body:
         - いいえ
     validations:
       required: true
-  - type: dropdown
+  - type: input
     id: snapshot-version
     attributes:
       label: スナップショットバージョンで使用する場合は、スナップショットバージョンの名前を入力してください。

@@ -133,11 +133,11 @@ body:
     attributes:
       label: Is it used on a snapshot version?
       options: 
-        - Yes
-        - No
+        - 'Yes'
+        - 'No'
     validations:
       required: true
-  - type: dropdown
+  - type: input
     id: snapshot-version
     attributes:
       label: If used in a snapshot version, enter the name of the snapshot version.
