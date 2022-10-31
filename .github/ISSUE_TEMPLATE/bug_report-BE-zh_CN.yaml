@@ -1,0 +1,189 @@
+name: 漏洞汇报（简体中文，基岩版）
+description: 提交 现代字体包 漏洞汇报
+title: "[Bug] "
+labels: ["Bug", "In triage", "Bedrock Edition"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢您抽出宝贵时间填写此漏洞汇报！
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 漏洞描述
+      description: 请详细描述发生的漏洞信息。
+      placeholder: 告诉我们发生了什么漏洞。
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 重现步骤
+      description: 请描述触发漏洞的步骤。
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+      render: bash
+    validations:
+      required: true
+  - type: input
+    id: expected-behavior
+    attributes:
+      label: 预期行为
+      description: 请简要描述您想要的效果。
+    validations:
+      required: true
+  - type: input
+    id: actual-behavior
+    attributes:
+      label: 实际行为
+      description: 请简要说明实际结果。
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: 现代字体包 版本
+      description: 你目前使用的是什么版本的 现代字体包？（例如 v919，可从资源包标题中指示的版本号中找到。如果您使用的版本未在此处列出，则您使用的版本已过期。请更新到最新版本并尝试再次重现该漏洞。）
+      options:
+        - v119
+        - v219
+    validations:
+      required: true
+  - type: dropdown
+    id: game-version
+    attributes:
+      label: 你玩的是什么游戏版本？
+      description: （如果此处未列出您使用的版本，则表示您使用的版本不受支持。请使用支持的版本并尝试再次重现该漏洞。）
+      options:
+        - 1.19.50
+        - 1.19.40
+        - 1.19.31
+        - 1.19.30
+        - 1.19.22
+        - 1.19.21
+        - 1.19.20
+        - 1.19.11
+        - 1.19.10
+        - 1.19.2
+        - 1.19.0
+        - 1.18.30
+        - 1.18.20
+        - 1.18.12
+        - 1.18.11
+        - 1.18.10
+        - 1.18.2
+        - 1.18.1
+        - 1.18.0
+        - 1.17.41
+        - 1.17.40
+        - 1.17.34
+        - 1.17.33
+        - 1.17.32
+        - 1.17.30
+        - 1.17.11
+        - 1.17.10
+        - 1.17.2
+        - 1.17.1
+        - 1.17.0
+        - 1.16.221
+        - 1.16.220
+        - 1.16.210
+        - 1.16.201
+        - 1.16.200
+        - 1.16.101
+        - 1.16.100
+        - 1.16.61
+        - 1.16.60
+        - 1.16.50
+        - 1.16.42
+        - 1.16.40
+        - 1.16.21
+        - 1.16.20
+        - 1.16.10
+        - 1.16.1.04
+        - 1.16.1.03
+        - 1.16.1
+        - 1.16.0
+        - 1.14.60
+        - 1.14.41
+        - 1.14.30
+        - 1.14.20
+        - 1.14.1
+        - 1.14.0.12
+        - 1.14.0
+        - 1.13.3
+        - 1.13.2
+        - 1.13.1
+        - 1.13.0
+        - 1.12.1
+        - 1.12.0
+        - 1.11.4
+        - 1.11.3
+        - 1.11.2
+        - 1.11.1
+        - 1.11.0
+        - 1.10.1
+        - 1.10.0
+        - 1.9.0
+        - 1.8.1
+        - 1.8.0
+        - 1.7.1
+        - 1.7.0
+        - 1.6.2
+        - 1.6.1
+        - 1.6.0
+        - 1.5.3
+        - 1.5.2
+        - 1.5.1
+        - 1.5.0
+        - 1.4.4
+        - 1.4.3
+        - 1.4.2
+        - 1.4.1
+        - 1.4.0
+        - 1.2.16
+        - 1.2.15
+        - 1.2.14
+        - 1.2.13
+        - 1.2.11
+        - 1.2.10
+        - 1.2.9
+        - 1.2.8
+        - 1.2.7
+        - 1.2.6.60
+        - 1.2.6
+        - 1.2.5
+        - 1.2.3
+        - 1.2.2
+        - 1.2.1
+        - 1.2.0
+    validations:
+      required: true
+  - type: dropdown
+    id: snapshot
+    attributes:
+      label: 是否在抢鲜版或测试版上使用？
+      options: 
+        - 是
+        - 否
+    validations:
+      required: true
+  - type: input
+    id: snapshot-version
+    attributes:
+      label: 若在抢鲜版或测试版中使用，请输入该版本的名称。
+    validations:
+      required: false
+  - type: dropdown
+    id: operating-system
+    attributes:
+      label: 您正在使用的设备的系统是什么？
+      options:
+        - Windows
+        - Mac OS
+        - Linux
+        - 其他
+    validations:
+      required: false
