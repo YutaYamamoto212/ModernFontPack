@@ -38,6 +38,8 @@ Due to technical limitations, most fancy text can only be displayed in Java Edit
 ![image](https://user-images.githubusercontent.com/91775602/198916301-faa3e6cd-ce35-4461-ac00-1572beb760ef.png)
 
 ## Differences in Chinese Writing
-In Japan, Korea, China, Taiwan, Hong Kong, there are different standards for Chinese characters.
+In Japan, Korea, China, Taiwan, Hong Kong, there are different standards for Chinese characters.  
+Looking at the two pictures below, you will find that some Chinese characters are written in two or more ways:  
 ![image](https://upload.wikimedia.org/wikipedia/commons/2/23/Source_Han_Sans_Version_Difference.svg)
 ![image](https://miro.medium.com/max/1400/1*YGfUFXuGT99nnqnthU4oAQ.gif)
+In response to the fact that there are at most five different ways to write Chinese characters, this resource pack has also produced five variants.
