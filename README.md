@@ -1,6 +1,15 @@
 # Modern Font Pack
 Are you tired of Minecraft's thick and large default fonts? Even if you have Force Unicode Font enabled, it will look rough on high resolution screens. This resource pack will solve these problems so that you can see a more beautiful, modern and smooth font when you play Minecraft.  
 
+## Table of Contents
+- [Three Major Versions - HD, Basic, Supreme](#three-major-versions---hd-basic-supreme)
+    - [HD](#hd)
+    - [Basic](#basic)
+    - [Supreme](#supreme)
+- [Emoji Support](#emoji-support)
+- [Fancy Text Support](#fancy-text-support)
+- [Differences in Chinese Writing](#differences-in-chinese-writing)
+
 ## Three Major Versions - HD, Basic, Supreme  
 Due to different screen resolutions, and Minecraft's font rendering is not resampled as the interface size changes, the same resource pack will appear differently on different screens. In order to provide the desired effect, three major versions have been developed - HD, Basic and Supreme.  
 
