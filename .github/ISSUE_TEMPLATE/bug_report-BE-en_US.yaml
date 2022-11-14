@@ -45,10 +45,10 @@ body:
     id: version
     attributes:
       label: Modern Font Pack Version
-      description: What version of Modern Font Pack are you currently using? (e.g. v219, found from the version number indicated in the title of the resource pack. If the version you are using is not listed here, the version you are using is out of date. Please update to the latest version and try to reproduce the bug again.)
+      description: What version of Modern Font Pack are you currently using? (e.g. v220, found from the version number indicated in the title of the resource pack. If the version you are using is not listed here, the version you are using is out of date. Please update to the latest version and try to reproduce the bug again.)
       options:
-        - v119
-        - v219
+        - v120
+        - v220
     validations:
       required: true
   - type: dropdown
@@ -58,6 +58,7 @@ body:
       description: (If the version you are using is not listed here, the version you are using is not supported. Please use the supported version and try to reproduce the bug again.)
       options:
         - 1.19.50
+        - 1.19.41
         - 1.19.40
         - 1.19.31
         - 1.19.30
