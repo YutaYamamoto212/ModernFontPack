@@ -227,7 +227,7 @@
 		},
 		{
 			"type":"ttf",
-			"file":"minecraft:cjk_default.otf",
+			"file":"minecraft:cjk_tc.otf",
 			"shift":[
 				0,
 				0
@@ -349,7 +349,7 @@
 		},
 		{
 			"type":"ttf",
-			"file":"minecraft:cjk_default.otf",
+			"file":"minecraft:cjk_tc.otf",
 			"shift":[
 				-1,
 				0
@@ -435,7 +435,7 @@
 		},
 		{
 			"type":"ttf",
-			"file":"minecraft:cjk_default.otf",
+			"file":"minecraft:cjk_tc.otf",
 			"shift":[
 				-2,
 				0
@@ -1424,6 +1424,16 @@
 		{
 			"type":"ttf",
 			"file":"minecraft:yi.ttf",
+			"shift":[
+				0,
+				0
+			],
+			"size":11.5,
+			"oversample":23
+		},
+		{
+			"type":"ttf",
+			"file":"minecraft:math.ttf",
 			"shift":[
 				0,
 				0
