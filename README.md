@@ -41,11 +41,12 @@ Fonts are taken from:
 
 To use them, you don't need to use commands like `/tellraw` and `/title`. You just need to use any online fancy text generator, then copy the fancy text and paste it in the game.  
 Due to technical limitations, most fancy text can only be displayed in Java Edition 1.16 or above.  
-![image](https://lh4.googleusercontent.com/z8BvaWHGnNPQ2bAVk4Uci5CK06skL6h4E7acGjy9R_f2jd04Rl1GELV8fLASP51CRVfHTcuRddADAihFx8AF_LjEAw1byOfvlQ6YUMEUsCoYBQ9iKS9UgOyDvi2CRMDzbw=w1280)
+![2022-11-23_12 50 46](https://user-images.githubusercontent.com/91775602/204182095-490d27e8-1c3a-44f8-9293-a65cbc6bea60.png)
 
 ## Differences in Chinese Writing
 In Japan, Korea, China, Taiwan, Hong Kong, there are different standards for Chinese characters.  
 Looking at the two pictures below, you will find that some Chinese characters are written in two or more ways:  
 ![image](https://upload.wikimedia.org/wikipedia/commons/2/23/Source_Han_Sans_Version_Difference.svg)
+
 ![image](https://miro.medium.com/max/1400/1*YGfUFXuGT99nnqnthU4oAQ.gif)
 In response to the fact that there are at most five different ways to write Chinese characters, this resource pack has also produced five variants.
