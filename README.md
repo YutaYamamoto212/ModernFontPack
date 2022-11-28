@@ -34,17 +34,14 @@ The font is taken from the [Noto Emoji](https://fonts.google.com/noto/specimen/N
 ![image](https://user-images.githubusercontent.com/91775602/198916278-f15ce5be-8de6-4324-a847-0c6607c89d78.png)
 
 ## Fancy Text Support
-Fonts are taken from:  
-- [Manuskript Gothisch](https://www.1001fonts.com/manuskript-gothisch-font.html), designed by Peter Wiegel.  
-- [Gloucester Open Face](https://www.1001freefonts.com/gloucester-open-face.font), designed by Roger White.  
-- [Pacifico](https://fonts.google.com/specimen/Pacifico), commissioned by Google.  
+Fonts are taken from:   
 - [Noto Sans](https://fonts.google.com/noto/specimen/Noto+Sans), commissioned by Google.  
-- [Noto Serif](https://fonts.google.com/noto/specimen/Noto+Serif), commissioned by Google.  
-- [Noto Sans Mono](https://fonts.google.com/noto/specimen/Noto+Sans+Mono), commissioned by Google.  
+- [Noto Sans Math](https://fonts.google.com/noto/specimen/Noto+Sans+Math), commissioned by Google.  
+- [Noto Sans Symbols](https://fonts.google.com/noto/specimen/Noto+Sans+Symbols), commissioned by Google.  
 
 To use them, you don't need to use commands like `/tellraw` and `/title`. You just need to use any online fancy text generator, then copy the fancy text and paste it in the game.  
 Due to technical limitations, most fancy text can only be displayed in Java Edition 1.16 or above.  
-![image](https://user-images.githubusercontent.com/91775602/198916301-faa3e6cd-ce35-4461-ac00-1572beb760ef.png)
+![image](https://lh4.googleusercontent.com/z8BvaWHGnNPQ2bAVk4Uci5CK06skL6h4E7acGjy9R_f2jd04Rl1GELV8fLASP51CRVfHTcuRddADAihFx8AF_LjEAw1byOfvlQ6YUMEUsCoYBQ9iKS9UgOyDvi2CRMDzbw=w1280)
 
 ## Differences in Chinese Writing
 In Japan, Korea, China, Taiwan, Hong Kong, there are different standards for Chinese characters.  
