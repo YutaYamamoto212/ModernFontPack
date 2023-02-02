@@ -2,7 +2,7 @@
 name: 功能请求（简体中文）
 description: 请求新功能
 title: "[Feature Request] "
-labels: ["Enhancement", "In triage"]
+labels: ["Enhancement", "Pending"]
 body:
   - type: markdown
     attributes:

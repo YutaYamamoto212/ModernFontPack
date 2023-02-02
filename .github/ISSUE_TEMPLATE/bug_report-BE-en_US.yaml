@@ -1,7 +1,7 @@
 name: Bug Report (English, Bedrock Edition)
 description: Submit Modern Font Pack bug report
 title: "[Bug] "
-labels: ["Bug", "In triage", "Bedrock Edition"]
+labels: ["Bug", "Pending", "Bedrock Edition"]
 body:
   - type: markdown
     attributes:

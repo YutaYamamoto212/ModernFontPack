@@ -2,7 +2,7 @@
 name: 機能リクエスト（日本語）
 description: 新機能をリクエストする
 title: "[Feature Request] "
-labels: ["Enhancement", "In triage"]
+labels: ["Enhancement", "Pending"]
 body:
   - type: markdown
     attributes:

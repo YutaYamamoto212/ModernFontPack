@@ -1,7 +1,7 @@
 name: バグレポート（日本語、統合版）
 description: モダーンフォントパック のバグレポートを提出する
 title: "[Bug] "
-labels: ["Bug", "In triage", "Bedrock Edition"]
+labels: ["Bug", "Pending", "Bedrock Edition"]
 body:
   - type: markdown
     attributes:

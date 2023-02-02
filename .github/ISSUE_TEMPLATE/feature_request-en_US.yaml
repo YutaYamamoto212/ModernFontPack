@@ -2,7 +2,7 @@
 name: Feature Request (English)
 description: Request a new feature
 title: "[Feature Request] "
-labels: ["Enhancement", "In triage"]
+labels: ["Enhancement", "Pending"]
 body:
   - type: markdown
     attributes:

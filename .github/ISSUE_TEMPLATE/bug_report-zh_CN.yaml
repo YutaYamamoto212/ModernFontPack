@@ -1,7 +1,7 @@
 name: 漏洞汇报（简体中文，Java版）
 description: 提交 现代字体包 漏洞汇报
 title: "[Bug] "
-labels: ["Bug", "In triage", "Java Edition"]
+labels: ["Bug", "Pending", "Java Edition"]
 body:
   - type: markdown
     attributes:
