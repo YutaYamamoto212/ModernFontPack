@@ -1,13 +1,5 @@
 {
 	"providers":[
-        {
-            "type": "space",
-            "advances": {
-                " ": 3,
-                "\u200c": 0,
-				"\u3000": 8
-            }
-        },
 		{
 			"type":"bitmap",
 			"file":"minecraft:font/emoji_bmp.png",

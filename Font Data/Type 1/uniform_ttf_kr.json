@@ -340,8 +340,7 @@
 				"\u5202",
 				"\u5369",
 				"\u536a",
-				"\uff1f",
-				"\u555f"
+				"\uff1f"
 			]
 		},
 		{
@@ -427,8 +426,7 @@
 				"\uff5f",
 				"\u2e89",
 				"\u5202",
-				"\u5369",
-				"\u555f"
+				"\u5369"
 			]
 		},
 		{
@@ -441,13 +439,12 @@
 			"size":11.5,
 			"oversample":23,
 			"skip": [
-				"\u3000",
-				"\u555f"			
+				"\u3000"			
 			]
 		},
 		{
 			"type":"ttf",
-			"file":"minecraft:cjk_alt_kr.otf",
+			"file":"minecraft:cjk_jp.otf",
 			"shift":[
 				0,
 				0
@@ -455,13 +452,12 @@
 			"size":11.5,
 			"oversample":23,
 			"skip": [
-				"\u3000",
-				"\u555f"			
+				"\u3000"			
 			]
 		},
 		{
 			"type":"ttf",
-			"file":"minecraft:cjk_alt_jp.otf",
+			"file":"minecraft:cjk_sc.otf",
 			"shift":[
 				0,
 				0
@@ -469,27 +465,12 @@
 			"size":11.5,
 			"oversample":23,
 			"skip": [
-				"\u3000",
-				"\u555f"			
+				"\u3000"			
 			]
 		},
 		{
 			"type":"ttf",
-			"file":"minecraft:cjk_alt_sc.otf",
-			"shift":[
-				0,
-				0
-			],
-			"size":11.5,
-			"oversample":23,
-			"skip": [
-				"\u3000",
-				"\u555f"			
-			]
-		},
-		{
-			"type":"ttf",
-			"file":"minecraft:cjk_alt_tc.otf",
+			"file":"minecraft:cjk_tc.otf",
 			"shift":[
 				0,
 				0
@@ -502,7 +483,7 @@
 		},
 		{
 			"type":"ttf",
-			"file":"minecraft:cjk_alt_hk.otf",
+			"file":"minecraft:cjk_hk.otf",
 			"shift":[
 				0,
 				0
