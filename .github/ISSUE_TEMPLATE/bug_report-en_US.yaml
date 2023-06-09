@@ -45,19 +45,21 @@ body:
     id: version
     attributes:
       label: Modern Font Pack Version
-      description: What version of Modern Font Pack are you currently using? (e.g. v921, found from the version number indicated in the title of the resource pack. If the version you are using is not listed here, the version you are using is out of date. Please update to the latest version and try to reproduce the bug again.)
+      description: What version of Modern Font Pack are you currently using? (e.g. 1222, found from the four-digit number in the title of the resource pack. If the version you are using is not listed here, the version you are using is out of date. Please update to the latest version and try to reproduce the bug again.)
       options:
-        - v021
-        - v121
-        - v221
-        - v321
-        - v421
-        - v521
-        - v621
-        - v721
-        - v821
-        - v921
-        - v1021
+        - 0022
+        - 0122
+        - 0222
+        - 0322
+        - 0422
+        - 0522
+        - 0622
+        - 0722
+        - 0822
+        - 0922
+        - 1022
+        - 1122
+        - 1222
     validations:
       required: true
   - type: input
