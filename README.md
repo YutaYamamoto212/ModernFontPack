@@ -15,13 +15,13 @@ Due to different screen resolutions, and Minecraft's font rendering is not resam
 
 ### HD
 Suitable for GUI Scale 3 or above, or game screen resolution of 1024×768, 1280×720, 1366×768, 1280×1024, 1440×900, 1920×1080 or above, or general mobile phones and tablets. Both Java Edition and Bedrock Edition are supported.  
-![image](https://user-images.githubusercontent.com/91775602/198916109-11b6c36d-ff2f-46d9-94e0-c01d78c2e9a4.png)
-![image](https://user-images.githubusercontent.com/91775602/198916123-e00d54e1-4d05-48e2-8799-4aa879907338.png)
+![2023-06-09_09 13 02](https://github.com/YutaYamamoto212/ModernFontPack/assets/91775602/da74291b-7aca-470c-9cf2-d708aaab2ccb)
+![image](https://github.com/YutaYamamoto212/ModernFontPack/assets/91775602/0a1d441e-49ad-4b29-b3e8-e7ab207dee3a)
 
 ### Basic
 Suitable for GUI Scale 2, or game screen resolution of 854×480, 800×600, etc., or mini mobile phones. Both Java Edition and Bedrock Edition are supported.  
-![image](https://user-images.githubusercontent.com/91775602/198916175-7a92030a-c047-4f8e-9f13-4c375878ed98.png)
-![image](https://user-images.githubusercontent.com/91775602/198916185-4d23267e-a6ef-40d8-8e94-b0d99a5384b2.png)
+![2023-06-09_09 46 33](https://github.com/YutaYamamoto212/ModernFontPack/assets/91775602/b2f8c28f-4afc-4eae-9c2b-dccb1eb67026)
+![image](https://github.com/YutaYamamoto212/ModernFontPack/assets/91775602/62a13416-68aa-4e55-b2b3-88d5eb90ce5b)
 
 ### Supreme
 Suitable for GUI Scale 5 or above, or game screen resolution of 2560×1440, 3840×2160 or above. Only Java Edition 1.13 or above is supported.  
