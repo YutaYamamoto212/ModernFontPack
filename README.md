@@ -25,7 +25,7 @@ Suitable for GUI Scale 2, or game screen resolution of 854×480, 800×600, etc.,
 
 ### Supreme
 Suitable for GUI Scale 5 or above, or game screen resolution of 2560×1440, 3840×2160 or above. Only Java Edition 1.13 or above is supported.  
-![image](https://user-images.githubusercontent.com/91775602/198916197-6e07c11c-cff2-4963-ad80-5f83ec2f3c92.png)
+![2023-09-14_10 20 03](https://github.com/YutaYamamoto212/ModernFontPack/assets/91775602/b6322874-fa25-4e20-ba61-a39ad2896596)
 
 The above fonts are available in 5 variants, namely JP, KR, CN, TW and HK. The font is taken from the [Noto Sans](https://fonts.google.com/noto/specimen/Noto+Sans) font family, commissioned by Google.  
 
