@@ -60,6 +60,9 @@ body:
         - 1022
         - 1122
         - 1222
+        - 1322
+        - 1422
+        - 1522
     validations:
       required: true
   - type: input
